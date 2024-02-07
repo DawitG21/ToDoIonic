@@ -1,0 +1,49 @@
+<ion-menu [content]="content" color ="royal" >
+        <ion-header>
+          <ion-toolbar color= "royal">
+            <ion-title>Menu</ion-title>
+          </ion-toolbar>
+        </ion-header>
+        <ion-content >
+            <div style = "color : #3DBCC0; width:100%; height : 100%">
+          <ion-list>
+
+            <button ion-item (click)="openHomePage()" color = "royal">
+              <ion-icon name="home" item-start color style="color: #f4f4f4"></ion-icon>
+            Home
+          </button>
+
+            <button ion-item (click)="openCompletedPage()" color = "royal">
+                <ion-icon name="checkmark" item-start color style="color: #f4f4f4"></ion-icon>
+              Complited Tasks
+            </button>
+            <button ion-item (click)="openUncompletedPage()" color = "royal">
+                <ion-icon name="close" item-start style="color: #f4f4f4"></ion-icon>
+              Uncompleted Tasks
+            </button>
+            <button ion-item (click)="openSettingsPage()" color = "royal">
+                <ion-icon name="settings" item-start style="color: #f4f4f4"></ion-icon>
+              Settings  
+            </button>
+            <button ion-item (click)="openContactUs()" color = "royal">
+              <ion-icon name="contact" item-start style="color: #f4f4f4"></ion-icon>
+              Contact US
+            </button>
+            <button ion-item (click)="openAboutUs()" color = "royal">
+              <ion-icon name="bookmark" item-start style="color: #f4f4f4"></ion-icon>
+              About Us
+            </button>
+            <button ion-item (click)="openVersion()" color = "royal">
+              <ion-icon name="information-circle" item-start style="color: #f4f4f4"></ion-icon>
+              Version
+            </button>
+            <button ion-item (click)="openSignOut()" color = "royal">
+              <ion-icon name="exit" item-start style="color: #f4f4f4"></ion-icon>
+                Sign Out
+              </button>
+          </ion-list>
+          </div>
+        </ion-content>
+    </ion-menu> 
+    
+<ion-nav [root]="rootPage" #content></ion-nav>

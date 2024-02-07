@@ -1,0 +1,43 @@
+.one{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top : 0;
+    height: 65%;
+
+}
+
+ion-icon{
+    margin-top: 30%;
+    font-size: 7em;
+}
+h2{
+    margin-top : 60% !important;
+    font-weight : bold;
+    font-size: 1em;
+}
+p{
+     width: 80%;
+     display: block;
+     margin: 0 auto;
+     font-size: .9em;
+ }
+ .swiper-pagination-bullet-active{
+     background :#614385;
+ }
+
+ .swiper-pagination{
+     bottom : 12% !important;
+ }
+
+ #skip {
+     position : absolute;
+     bottom : 40px;
+     width: 90%;
+     background: none !important;
+     text-align : center;
+     cursor : pointer;
+     z-index: 5;
+     color : #614385;
+     font-weight: bold;
+ }  

@@ -1,0 +1,35 @@
+
+<ion-content padding>
+  <ion-slides pager (ionSlideDidChange)="slideChanged()">
+    <ion-slide>
+      <div class="one">
+        <ion-icon ios="ios-trophy" md="md-trophy" color= "royal"></ion-icon>
+      </div>
+      <div>
+        <h2>Organization</h2>
+        <p>One of the most important reasons for keeping a to-do list is the organization</p>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="one">
+        <ion-icon ios="ios-analytics" md="md-analytics" color= "royal"></ion-icon>
+      </div>
+      <div>
+        <h2>Improved Memory</h2>
+        <p>Feeling forgetful? Nobody is capable of remembering everything at all times. </p>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="one">
+        <ion-icon ios="ios-chatboxes" md="md-chatboxes" color= "royal"></ion-icon>
+      </div>
+      <div>
+        <h2>Productivity</h2>
+        <p>If you record all your tasks in a to-do list, you can easily review the list and prioritize the most important tasks.</p>
+      </div>
+    </ion-slide>
+  </ion-slides>
+
+  <button (click)="skip()" id="skip">{{skipMsg}}</button>
+
+</ion-content>

@@ -1,0 +1,31 @@
+page-usertasks {
+    h1{
+        color : #614385;
+    }
+     table {
+         width: 100%;
+     }
+     #move{
+         position : relative;
+      
+     }
+     #left{
+         padding-right : 3%;
+     }
+}
+
+.action-sheets-basic-page {
+    .ion-md-trash {
+      color: #ED4248;
+    }
+    .ion-md-create {
+      color: #508AE4;
+    }
+    .ion-md-checkmark-circle {
+      color: #31D55F;
+    }
+    .action-sheet-cancel ion-icon,
+    .action-sheet-destructive ion-icon {
+      color: #757575;
+    }
+  }
